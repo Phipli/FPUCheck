@@ -1,6 +1,8 @@
 # FPUCheck
 A simple little program for verifying that floating point values are being displayed correctly in Basilisk II.
 
+## [Download v1.1 here](https://github.com/Phipli/FPUCheck/releases/download/v1.1/FPU.Check.1.1.sit.hqx)
+
 This is a CodeWarrior Pro 4 project for Mac OS (68k).
 
 I've been having issues when debugging my software on Basilisk II due to floating point values been mis-rendered in text. I'm not sure why this is, and it doesn't appear to impact actual programatical use (i.e. you can perform maths and evaluate the values correctly, but if you printf, an incorrect value is shown). I have found the same issue in both code compiled with CodeWarrior Pro 4, and in RealBasic.
